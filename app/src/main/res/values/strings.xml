@@ -16,4 +16,5 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="headline">Welcome to the Covid-19 Self Assessment App</string>
 </resources>

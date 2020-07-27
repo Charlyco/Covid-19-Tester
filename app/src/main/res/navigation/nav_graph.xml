@@ -23,5 +23,18 @@
         android:id="@+id/fragmentMain"
         android:name="com.example.covid_19tester.FragmentMain"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <argument
+            android:name="fragmentMain"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_fragmentMain_to_testFragment"
+            app:destination="@id/testFragment" />
+        <action
+            android:id="@+id/action_fragmentMain_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_fragmentMain_to_pastTestFragment"
+            app:destination="@id/pastTestFragment" />
+    </fragment>
 </navigation>
