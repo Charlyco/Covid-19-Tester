@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/testFragment">
+    app:startDestination="@id/fragmentMain">
 
     <fragment
         android:id="@+id/testFragment"
@@ -19,4 +19,9 @@
         android:name="com.example.covid_19tester.PastTestFragment"
         android:label="fragment_past_test_list"
         tools:layout="@layout/fragment_past_test_list" />
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.example.covid_19tester.FragmentMain"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
 </navigation>

@@ -26,7 +26,7 @@ public class PastTestAdapter extends RecyclerView.Adapter<PastTestAdapter.ViewHo
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.fragment_past_test, parent, false);
+                .inflate(R.layout.past_test_item, parent, false);
         return new ViewHolder(view);
     }
 
